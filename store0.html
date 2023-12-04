@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Picture/logo.png">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="picture/Logo.png" alt="" height="80"><strong>J&P Delivery</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"><strong>Home</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"><strong>About</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"><strong>Contact</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><strong>Store</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cart.html"><img class="cart-icon"src="Picture/cart.svg" alt=""></a>
+            </li>
+            <div class="dropdown">
+              <img class="profile-icon"src="Picture/profile.svg" alt="">
+                <div class="dropdown-content">
+                  <a href="profile.html">My Account</a>
+                  <a href="mypurchase.html">My Purchase</a>
+                  <a href="customer-login.html">Logout</a>
+                </div>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="wrap">
+      <div class="search">
+        <input type="text" class="searchTerm" placeholder="Search products">
+        <button type="submit" class="searchButton">
+          <i class="fa fa-search"></i>
+        </button>
+      </div>
+    </div>
+    <div class="container-fluid2">
+      <div class="tmwa">
+        <p>POPULAR STORE</p>
+      </div>
+      <div id="testimonial-carousels" class="carousel slide" data-ride="false">
+        <ol class="carousel-indicators">
+          <li data-target="#testimonial-carousels" data-slide-to="0" class="active"></li>
+          <li data-target="#testimonial-carousels" data-slide-to="1"></li>
+          <li data-target="#testimonial-carousels" data-slide-to="2"></li>
+          <li data-target="#testimonial-carousels" data-slide-to="3"></li>
+          <li data-target="#testimonial-carousels" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="popular-image" src="Picture/jobi.jpg" alt="Jollibee">
+          </div>
+          <div class="carousel-item ">
+            <img class="popular-image" src="Picture/casaplaza1.jpeg" alt="casa-plaza">
+          </div>
+          <div class="carousel-item">
+            <img class="popular-image" src="Picture/labarida1.jpg" alt="labarida">
+          </div>
+          <div class="carousel-item">
+            <img class="popular-image" src="Picture/braders-cafe1.webp" alt="lady-profile">
+          </div>
+          <div class="carousel-item">
+            <img class="popular-image" src="Picture/kantobistro1.jpg" alt="lady-profile">
+          </div>
+          <a class="carousel-control-prev" href="#testimonial-carousels" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#testimonial-carousels" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="categorycontainer">
+      <h1>Categories</h1>
+      <hr>
+      <div class="categoryinnercontainer">
+        <div class="categorybox">
+          <a href="store-category.html"><img src="Picture/food.webp" alt="Cafe Lokal Milk Tea"></a>
+          <span class="name">Food</span>
+        </div>
+        <div class="categorybox">
+          <img src="Picture/groceries.jpeg" alt="Cafe Lokal Milk Tea">
+          <span class="name">Groceries</span>
+        </div>
+        <div class="categorybox">
+          <img src="Picture/appliances.jpg" alt="Cafe Lokal Milk Tea">
+          <span class="name">Appliances</span>
+        </div>
+        <div class="categorybox">
+          <img src="Picture/gadgets.jpg" alt="Cafe Lokal Milk Tea">
+          <span class="name">Gadgets</span>
+        </div>
+        <div class="categorybox">
+          <img src="Picture/beauty.jpg" alt="Cafe Lokal Milk Tea">
+          <span class="name">Beauty Products</span>
+        </div>
+        <div class="categorybox">
+          <img src="Picture/beverage.webp" alt="Cafe Lokal Milk Tea">
+          <span class="name">Beverages</span>
+        </div>
+        <div class="categorybox">
+          <img src="Picture/clothing.webp" alt="Cafe Lokal Milk Tea">
+          <span class="name">Clothes</span>
+        </div>
+        <div class="categorybox">
+          <img src="Picture/furniture.jpg" alt="Cafe Lokal Milk Tea">
+          <span class="name">Furniture</span>
+        </div>
+        <div class="categorybox">
+          <img src="Picture/accessories.webp" alt="Cafe Lokal Milk Tea">
+          <span class="name">Accessories</span>
+        </div>
+        <div class="categorybox">
+          <img src="Picture/petproducts.png" alt="Cafe Lokal Milk Tea">
+          <span class="name">Pet Products</span>
+        </div>
+      </div>
+    </div>
+    <div class="item-header">
+      <h1>Daily Discovery</h1>
+    </div>
+    <div class="storecontainer">
+      <div class="storebox">
+        <img src="Picture/lokalmilktea.jpg" alt="Cafe Lokal Milk Tea">
+        <span class="name">Lokal milk tea</span>
+        <span class="location">Cafe Lokal, Pob. 2 Magdami St.</span>
+        <span class="price">₱75.00</span>
+      </div>
+      <div class="storebox">
+        <img src="Picture/vitality.jpg" alt="Vitality Pet food">
+        <span class="name">Vitality ValueMeal</span>
+        <span class="location">Pob.3 Sariaya, Quezon</span>
+        <span class="price">₱75.00</span>
+      </div>
+      <div class="storebox">
+        <img src="Picture/tableset.jpg" alt="Description">
+        <span class="name">Table Set</span>
+        <span class="location">Raffy and Noemi Furniture Shop</span>
+        <span class="price">₱2500.00</span>
+      </div>
+      <div class="storebox">
+        <img src="Picture/bucket.webp" alt="Description">
+        <span class="name">Chicken Bucket</span>
+        <span class="location">Sariaya, Quezon</span>
+        <span class="price">₱360.00</span>
+      </div>
+      <div class="storebox">
+        <img src="Picture/stripes.jpg" alt="Description">
+        <span class="name">Stripes T-shirt</span>
+        <span class="location">Outfit Gallery, Rodriguez St.</span>
+        <span class="price">₱150.00</span>
+      </div>
+      <div class="storebox">
+        <img src="Picture/halohalo.jpg" alt="Description">
+        <span class="name">Ben’s Halo Halo</span>
+        <span class="location">Sariaya, Quezon</span>
+        <span class="price">₱125.00</span>
+      </div>
+      <div class="storebox">
+        <img src="Picture/Adidas.jpg" alt="Description">
+        <span class="name">Adidas Short</span>
+        <span class="location">Outfit Gallery, Rodriguez St.</span>
+        <span class="price">₱140.00</span>
+      </div>
+      <div class="storebox">
+        <img src="Picture/bangus.jpg" alt="Description">
+        <span class="name">Sizzling Bangus</span>
+        <span class="location">Buddy’s, Sariaya Quezon</span>
+        <span class="price">₱140.00</span>
+      </div>
+      <div class="storebox">
+        <img src="Picture/milktea.jpg" alt="Description">
+        <span class="name">Milk Tea</span>
+        <span class="location">Haven’s Brew, Sariaya, Quezon</span>
+        <span class="price">₱29.00</span>
+      </div>
+      <div class="storebox">
+        <a href="buy.html"><img src="Picture/imrs.webp" alt="Description"></a>
+        <span class="name">Chicken Wings</span>
+        <span class="location">Brgy. Marichi Gov. Rodriguez Street</span>
+        <span class="price">₱88.00</span>
+      </div>
+      <div class="storebox">
+        <img src="Picture/nachos.jpg" alt="Description">
+        <span class="name">Overload Nachos</span>
+        <span class="location">Sariaya, Quezon</span>
+        <span class="price">₱150.00</span>
+      </div>
+      <div class="storebox">
+        <img src="Picture/calamares.jpg" alt="Description">
+        <span class="name">Calamares</span>
+        <span class="location">Sariaya, Quezon</span>
+        <span class="price">₱75.00</span>
+      </div>
+      <div class="storebox">
+        <img src="Picture/fan.webp" alt="Description">
+        <span class="name">Fan</span>
+        <span class="location">Sariaya, Quezon</span>
+        <span class="price">₱850.00</span>
+      </div>
+      <div class="storebox">
+        <img src="Picture/caldereta.jpg" alt="Description">
+        <span class="name">Caldereta</span>
+        <span class="location">Casa Plaza, Sariaya, Quezon</span>
+        <span class="price">₱160.00</span>
+      </div>
+      <div class="storebox">
+        <img src="Picture/burgersteak.jpg" alt="Description">
+        <span class="name">Burger Steak</span>
+        <span class="location">Cafe Lokal, Sariaya, Quezon</span>
+        <span class="price">₱70.00</span>
+      </div>
+      <div class="storebox">
+        <img src="Picture/sandwich.jpg" alt="Description">
+        <span class="name">Club-Sandwich</span>
+        <span class="location">Sariaya, Quezon</span>
+        <span class="price">₱85.00</span>
+      </div>
+      <div class="storebox">
+        <img src="Picture/accessories.webp" alt="Description">
+        <span class="name">Accessories</span>
+        <span class="location">Outfit Gallery, Rodriguez St.</span>
+        <span class="price">₱150.00</span>
+      </div>
+      <div class="storebox">
+        <img src="Picture/kojic.jpg" alt="Description">
+        <span class="name">Kojic Acid Soap</span>
+        <span class="location">Outfit Gallery, Rodriguez St.</span>
+        <span class="price">₱95.00</span>
+      </div>
+      <div class="storebox">
+        <img src="Picture/redcurry.jpg" alt="Description">
+        <span class="name">Red Curry</span>
+        <span class="location">Sariaya, Quezon</span>
+        <span class="price">₱99.00</span>
+      </div>
+      <div class="storebox">
+        <img src="Picture/sweetandsour.jpeg" alt="Description">
+        <span class="name">Sweet and Sour</span>
+        <span class="location">Sariaya, Quezon</span>
+        <span class="price">₱129.00</span>
+      </div>
+      <div class="storebox">
+        <img src="Picture/carbonara.webp" alt="Description">
+        <span class="name">Carbonara</span>
+        <span class="location">Cafe Lokal Sariaya, Quezon</span>
+        <span class="price">₱99.00</span>
+      </div>
+      <div class="storebox">
+        <img src="Picture/wintermelon.png" alt="Description">
+        <span class="name">Winter Melon</span>
+        <span class="location">Haven’s Brew, Sariaya, Quezon</span>
+        <span class="price">₱29.00</span>
+      </div>
+      <div class="storebox">
+        <img src="Picture/pansit.jpg" alt="Description">
+        <span class="name">Pancit sa Bilao</span>
+        <span class="location">Sariaya, Quezon</span>
+        <span class="price">₱29.00</span>
+      </div>
+      <div class="storebox">
+        <img src="Picture/milktea.jpg" alt="Description">
+        <span class="name">Milk Tea</span>
+        <span class="location">Haven’s Brew, Sariaya, Quezon</span>
+        <span class="price">₱29.00</span>
+      </div>
+    </div>
+    <div class="nextbtn">
+      <a href="#"><button>Next</button></a>
+    </div>
+    <section id="footer">
+      <div class="container">
+         <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+           <div class="col mb-3">
+             <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+               <svg class="bi me-2" width="40" height="32">
+                 <use xlink:href="#bootstrap"></use>
+               </svg>
+             </a>
+             <p class="text-body-secondary">© J&P Delivery 2023</p>
+           </div>
+           <div class="col mb-4">
+             <h5>J&P Delivery</h5>
+             <ul class="nav flex-column">
+               <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">Home</a></li>
+               <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">About</a></li>
+               <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">Contact</a></li>
+               <li class="nav-item mb-2"><a href="store.html" class="nav-link p-0 text-body-secondary">Store</a></li>
+             </ul>
+           </div>
+           <div class="col mb-4">
+             <h5>Mod of Payment</h5>
+             <ul class="nav flex-column">
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Cash on Delivery</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Gcash</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Paymaya</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Crypto</a></li>
+             </ul>
+           </div>
+           <div class="col mb-4">
+             <h5>Features</h5>
+             <ul class="nav flex-column">
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">GPS Tracker</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Crypto Currency</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Reward Card</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Low Price</a></li>
+             </ul>
+           </div>
+         </footer>
+       </div>
+    </section>
+  </body>
+</html>
